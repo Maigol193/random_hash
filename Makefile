@@ -24,10 +24,10 @@ install:
 		pip install -r requirements.txt
 
 lint:
-    pylint --disable=R,C random_hash.py
+	pylint --disable=R,C random_hash.py
 
 format:
-    black *.py
+	black *.py
 
 test:
-    python random_hash.py
+	python random_hash.py
